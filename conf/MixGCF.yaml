@@ -1,12 +1,12 @@
-training.set: ./dataset/yelp2018/train.txt
+training.set: ./dataset/ml1m/train.txt
 
-test.set: ./dataset/yelp2018/test.txt
+test.set: ./dataset/ml1m/test.txt
 
 model:
   name: MixGCF
   type: graph
 
-item.ranking.topN: [10,20]
+item.ranking.topN: [30,50]
 
 embedding.size: 64
 max.epoch: 500

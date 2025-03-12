@@ -1,12 +1,12 @@
-training.set: ./dataset/iFashion/train.txt
+training.set: ./dataset/ml1m/train.txt
 
-test.set: ./dataset/iFashion/test.txt
+test.set: ./dataset/ml1m/test.txt
 
 model:
   name: SGL
   type: graph
 
-item.ranking.topN: [10,20]
+item.ranking.topN: [30,50]
 
 embedding.size: 64
 max.epoch: 20
